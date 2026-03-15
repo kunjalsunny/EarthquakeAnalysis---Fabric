@@ -1,0 +1,18 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["earthquake_events_gold (2)"]
+
+ref table 'earthquake_events_gold (2)'
+
+ref role 'Canada users'
+
+ref cultureInfo en-US
+
