@@ -1,0 +1,7 @@
+role 'US Users'
+	modelPermission: read
+
+	tablePermission earthquake_events_gold = [Country_code] == "US"
+
+	annotation PBI_Id = f3f821ffffe849ee9789e571164d7733
+

@@ -1,0 +1,7 @@
+role 'Canada users'
+	modelPermission: read
+
+	tablePermission 'earthquake_events_gold (2)' = [Country_code] == "CA"
+
+	annotation PBI_Id = c1d196bc0dbe4ca0b129f9d9fe53c5c1
+
